@@ -1,0 +1,31 @@
+.pagamento1 {
+    font-style: bold;
+    text-align: center;
+    background: #6b5a85;
+  height: 50px;
+padding: 5px;
+border-radius: 80px;
+color: aliceblue;
+}
+.nome {
+    text-align: center;
+    font-style: oblique;
+    font-size: x-large;
+ color: #423752;
+}
+
+body {
+    background-color: rgb(198, 182, 211);
+}
+
+.loguita, .pagamento1, .estrela{
+    display: inline-block;
+}
+
+
+
+.container { 
+    display: flex;
+    align-items: center;
+}
+

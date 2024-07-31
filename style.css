@@ -1,0 +1,76 @@
+.pesquisa {
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  transform: translate(-2%, -30%);
+background:#4cab61;
+height: 40px;
+padding: 5px;
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.pesquisa2 {
+  border: none;
+  background: none;
+  outline: none;
+  padding: 0;
+  color: #d1e9d6;
+  font-size: 16px;
+  line-height: 40px;
+ width: 0;
+}
+
+.botao {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  background: #409952;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pesquisa:hover > .pesquisa2{
+  width: 240px;
+  padding: 0 6px;
+}
+
+.pesquisa:hover > .botao {
+  background: #b7e0bf;
+}
+
+.agrade {
+  background: #33244a;
+  height: 90px;
+padding: 1px;
+border-radius: 80px;
+display: inline;
+justify-content: center;
+}
+
+.titulo {
+ color:#e9d7f4 ;
+ font-style: italic;
+ font-family: Monospace;
+  background-color: #48825d ;
+padding: 10px;
+border-radius: 20px;
+height: 40px;
+display: flex;
+}
+
+.botao2 {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  background: #409952;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Bold;
+  color: white
+
+}
